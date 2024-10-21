@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app
 
 # Running the main Python application using PyPy instead of Python3
-CMD ["pypy3", "app.py"]
+CMD ["pypy3", "inventory.py"]
